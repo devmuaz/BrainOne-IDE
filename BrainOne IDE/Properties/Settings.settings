@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BrainOne_IDE.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StandardCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    // C++ Standard Code..
+
+    cout &lt;&lt; "Hello, World!";
+
+    return 0;
+}</Value>
+    </Setting>
+    <Setting Name="LOVE_SET" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SET_PATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

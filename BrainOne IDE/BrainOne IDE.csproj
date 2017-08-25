@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17BFBD7A-3AD9-4252-8C5F-253881E1C0C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BrainOne_IDE</RootNamespace>
+    <AssemblyName>BrainOne IDE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BrainOne IDE v1.0.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutocompleteMenu">
+      <HintPath>..\..\..\..\..\Desktop\AutocompleteMenu\AutocompleteMenu\bin\Debug\AutocompleteMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\..\..\..\..\Desktop\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABOUT_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABOUT_FRM.Designer.cs">
+      <DependentUpon>ABOUT_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN_FRM.Designer.cs">
+      <DependentUpon>MAIN_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_FRM.Designer.cs">
+      <DependentUpon>NEW_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ABOUT_FRM.resx">
+      <DependentUpon>ABOUT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN_FRM.resx">
+      <DependentUpon>MAIN_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_FRM.resx">
+      <DependentUpon>NEW_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google Code_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save as_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open Folder_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add File_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_25px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numbered List_25px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo_25px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo_25px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select All_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook_50px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instagram_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instagram_50px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook_50px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GitHub_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouTube_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google Plus_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Website_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BrainOne IDE v1.0.ico" />
+    <None Include="Resources\Twitter_50px1.png" />
+    <None Include="Resources\Instagram_50px_11.png" />
+    <None Include="Resources\Facebook_50px_21.png" />
+    <None Include="Resources\Love_18px.png" />
+    <None Include="Resources\Website_28px.png" />
+    <None Include="Resources\YouTube Squared_28px.png" />
+    <None Include="Resources\GitHub_28px.png" />
+    <None Include="Resources\Twitter_28px.png" />
+    <None Include="Resources\Instagram_28px.png" />
+    <None Include="Resources\Facebook_28px.png" />
+    <None Include="Resources\Facebook_32px_2.png" />
+    <None Include="Resources\Facebook_32px_1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

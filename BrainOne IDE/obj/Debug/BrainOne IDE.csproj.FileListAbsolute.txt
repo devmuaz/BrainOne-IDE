@@ -1,0 +1,20 @@
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.exe.config
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.exe
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.pdb
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.ABOUT_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.MAIN_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.NEW_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.Properties.Resources.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.csproj.GenerateResource.Cache
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.exe
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2013\Projects\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.pdb
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.exe.config
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.exe
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\bin\Debug\BrainOne IDE.pdb
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.ABOUT_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.MAIN_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.NEW_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne_IDE.Properties.Resources.resources
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.csproj.GenerateResource.Cache
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.exe
+E:\System\Programming\C# Programming\MY PROJECTS\BrainOne IDE\BrainOne IDE\BrainOne IDE\obj\Debug\BrainOne IDE.pdb
