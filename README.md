@@ -9,11 +9,11 @@ See this http://abdulmuazaqeel.blogspot.com/2017/06/BrainOne-IDE.html
 ## Previews
 <br>
 <p>
-  <img src="code.PNG" style="height: 400px; width: 400px; object-fit: cover;">
+  <img src="code.PNG" style="height: 400px; object-fit: cover;">
   <br>
-  <img src="run.PNG" style="height: 400px; width: 400px; object-fit: cover;">
+  <img src="run.PNG" style="height: 400px; object-fit: cover;">
   <br>
-  <img src="newfile.PNG" style="height: 400px; width: 400px; object-fit: cover;">
+  <img src="newfile.PNG" style="height: 400px; object-fit: cover;">
 </p>
 <br>
 <br>
